@@ -1,23 +1,21 @@
 import Navbar from "./Navbar";
 import Billing from "./Billing";
 import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
+import Sola from "./Sola";
+import Founders from "./Founders";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
 import Header from "./Header";
+import ContactUs from "./ContactUs";
+import EmailForm from "./EmailForm";
 
 export {
   Navbar,
   Billing,
   CardDeal,
-  Business,
-  Clients,
-  CTA,
-  Stats,
+  Sola,
+  Founders,
   Footer,
-  Testimonials,
   Header,
+  ContactUs,
+  EmailForm,
 };

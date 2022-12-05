@@ -15,6 +15,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
+import lowercost from "./lowercost.svg"
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
@@ -23,7 +24,9 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
-import people03 from "./people03.png";
+import email from "./email.svg";
+import phone from "./phone.svg";
+
 
 export {
   airbnb,
@@ -38,6 +41,7 @@ export {
   mediarobot,
   send,
   shield,
+  lowercost,
   star,
   menu,
   close,
@@ -51,5 +55,6 @@ export {
   twitter,
   people01,
   people02,
-  people03,
+  email,
+  phone,
 };

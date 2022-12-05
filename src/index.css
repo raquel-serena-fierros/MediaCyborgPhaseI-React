@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #ffffff 0.89%,
+    #f5beff 17.23%,
+    #ee9ef1 42.04%,
+    #dd68dd 55.12%,
+    #a213a2 71.54%,
+    #662d91 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,6 +43,18 @@
     #7de7eb 29.82%,
     #5ce1e6 51.94%,
     #33bbcf 90.29%
+  );
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #f3defa -43.27%,
+    #e6bef5 -21.24%,
+    #df9df0 12.19%,
+    #d57deb 29.82%,
+    #ba5ce6 51.94%,
+    #9b33cf 90.29%
   );
 }
 
@@ -112,15 +124,15 @@
   box-shadow: var(--card-shadow);
 }
 
-.feedback-container .feedback-card:last-child {
+.mission-container .mission-card:last-child {
   margin-right: 0px;
 }
 
-.feedback-card {
+.mission-card {
   background: transparent;
 }
 
-.feedback-card:hover {
+.mission-card:hover {
   background: var(--black-gradient);
 }
 
