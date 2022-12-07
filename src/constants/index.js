@@ -1,4 +1,4 @@
-import { people02, people01, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, lowercost, send, shield, email, phone, star  } from "../images";
+import { people02, people01, facebook, instagram, linkedin, twitter, lowercost, send, shield, email, phone} from "../images";
 
 export const navLinks = [
   {

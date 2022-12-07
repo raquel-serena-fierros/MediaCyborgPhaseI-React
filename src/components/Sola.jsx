@@ -22,8 +22,8 @@ const Sola = () =>  (
   <section id="sola" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      To get more Media Coverage, 
- <br className="sm:block hidden" /> metrics now matter more than connections. MediaCyborg recognizes that.
+      To get more Media Coverage, metrics
+ <br className="sm:block hidden" />  now matter more than connections. MediaCyborg recognizes that.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       MediaCyborg's AI publicists, Sola, covers media to fit today's

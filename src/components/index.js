@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import ContactUs from "./ContactUs";
 import EmailForm from "./EmailForm";
+import WaitingListForm from "./WaitingListForm"
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Header,
   ContactUs,
   EmailForm,
+  WaitingListForm, 
 };
