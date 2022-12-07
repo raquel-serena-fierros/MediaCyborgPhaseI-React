@@ -2,7 +2,7 @@
 Front End Development using React.js and Vite  for Media Cyborg Startup
 
 
-Step 1 — Creating a Vite Project
+# Step 1 — Creating a Vite Project
 In this step, you will create a new React project using the Vite tool from the command line. You will use the yarn package manager to install and run the scripts.
 
 Run the following command in your terminal to scaffold a new Vite project:
@@ -75,7 +75,7 @@ You have now set up a new React project using Vite and installed the packages re
 
 Next, you will start the development server to test the application.
 
-Step 2 — Starting the Development Server
+# Step 2 — Starting the Development Server
 In this step, you will start the development server to verify that everything is working.
 
 From inside the digital-ocean-vite folder, use the following command to run the development server:
