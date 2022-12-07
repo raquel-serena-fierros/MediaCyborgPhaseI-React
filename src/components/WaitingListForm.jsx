@@ -1,9 +1,31 @@
-import React from "react";
+import { useRef } from "react";
 import styles from "../style";
 import "tailwindcss/tailwind.css";
-import SignUpButton from "./SignUpButton";
+import emailjs from "@emailjs/browser";
 
 const WaitingListForm = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_2kviud1",
+        "template_4e288sg",
+        form.current,
+        "LeLCq4hKck_i8k6br"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <section
       id="join-the-waitlist"
@@ -18,7 +40,7 @@ const WaitingListForm = () => {
       </div>
       <div className=" ">
         <div className="w-full p-6 m-auto bg-white__gradient rounded-md shadow-xl  lg:max-w-xl">
-          <form className="mt-6">
+          <form className="mt-6" ref={form} onSubmit={sendEmail}>
             <div className="mb-2">
               <label>
                 <span className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
@@ -27,7 +49,7 @@ const WaitingListForm = () => {
                 <input
                   placeholder="Enter your name"
                   type="text"
-                  name="name"
+                  name="user_name"
                   className=" w-full block px-6 py-2 mt-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 "
                 />
               </label>
@@ -39,7 +61,7 @@ const WaitingListForm = () => {
                 </span>
                 <input
                   placeholder="Enter your email"
-                  name="email"
+                  name="user_email"
                   type="email"
                   className=" block w-full mt-2 px-6 py-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 "
                   required
@@ -54,7 +76,7 @@ const WaitingListForm = () => {
                 <input
                   placeholder="Enter your phone number"
                   type="text"
-                  name="phone"
+                  name="user_phone"
                   className="w-full block px-6 py-2 mt-2 border-gray-300 rounded-md shadow-sm focus:ring focus:ring-indigo-200 focus:ring-opacity-50 "
                 />
               </label>
@@ -72,7 +94,12 @@ const WaitingListForm = () => {
               </label>
             </div>
             <div class="mb-6">
-              <SignUpButton />
+              <button
+                type="submit"
+                className=" font-poppins h-10 px-5 text-fuchsia-100 bg-fuchsia-700 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-fuchsia-800 "
+              >
+                Sign up
+              </button>
             </div>
             <div></div>
           </form>

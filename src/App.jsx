@@ -8,6 +8,7 @@ import {
   Footer,
   Navbar,
   Header,
+  Submit,
   EmailForm,
   WaitingListForm,
 } from "./components";
@@ -29,7 +30,8 @@ const App = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Sola />
-        <WaitingListForm />
+        <WaitingListForm/>
+        
         <ContactUs />
         <Footer />
       </div>
