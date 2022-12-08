@@ -8,8 +8,6 @@ import {
   Footer,
   Navbar,
   Header,
-  Submit,
-  EmailForm,
   WaitingListForm,
 } from "./components";
 
@@ -31,7 +29,6 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Sola />
         <WaitingListForm/>
-        
         <ContactUs />
         <Footer />
       </div>
