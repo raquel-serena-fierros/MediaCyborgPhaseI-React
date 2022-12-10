@@ -1,11 +1,10 @@
 import styles, { layout } from "../style";
-import { features } from "../constants";
 import { contact } from "../constants";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
-      index !== features.length - 1 ? "mb-1" : "mb-0"
+      index !== contact.length - 1 ? "mb-1" : "mb-0"
     } feature-card`}
   >
     <div
@@ -24,7 +23,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const CTA = () => (
+const ContactUs = () => (
   <section id="contact"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
@@ -38,4 +37,4 @@ const CTA = () => (
   </section>
 );
 
-export default CTA;
+export default ContactUs;

@@ -1,9 +1,6 @@
 import styles from "./style";
 import {
-  Billing,
   Sola,
-  CardDeal,
-  Founders,
   ContactUs,
   Footer,
   Navbar,

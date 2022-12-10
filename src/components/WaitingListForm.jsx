@@ -45,7 +45,7 @@ const WaitingListForm = () => {
       id="join-the-waitlist"
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
     >
-      <div className="box">
+      <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>
           Sign up to join the <br className="sm:block hidden" />{" "}
           <span className=" text-gradient">MediaCyborg</span> waitlist to get
