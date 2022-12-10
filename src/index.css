@@ -122,6 +122,13 @@
 .feature-card:hover {
   background: var(--black-gradient);
   box-shadow: var(--card-shadow);
+  
+
+}
+
+.center-text {
+  align-self: stretch;
+  text-align: center;
 }
 
 .mission-container .mission-card:last-child {

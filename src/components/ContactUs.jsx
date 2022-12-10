@@ -28,12 +28,12 @@ const ContactUs = () => (
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Get in touch!</h2>
-
-      <div className={`${layout.sectionImg} `}>
+      <div className="center-text"> 
+      <h2 className={styles.heading2}> Get in touch!</h2>
+      </div>
       {contact.map((info, index) => (
         <ContactCard key={info.id} {...info} index={index} />
-      ))} </div>
+      ))} 
     </div>
   </section>
 );
@@ -56,6 +56,10 @@ export default ContactUs;
       </div>
     </div>
   </section>
+
+
+
+
 
 
    <section id="contact"
