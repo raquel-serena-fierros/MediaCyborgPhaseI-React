@@ -1,7 +1,7 @@
-import styles, { layout } from "../style";
+import styles from "../style";
 import { contact } from "../constants";
 
-const FeatureCard = ({ icon, title, content, index }) => (
+const ContactCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== contact.length - 1 ? "mb-1" : "mb-0"
@@ -33,7 +33,7 @@ const ContactUs = () => (
 
       <div className="flex flex-wrap sm:justify-start justify-center feedback-container relative z-[1]">
         {contact.map((info, index) => (
-          <FeatureCard key={info.id} {...info} index={index} />
+          <ContactCard key={info.id} {...info} index={index} />
         ))}
       </div>
     </div>
