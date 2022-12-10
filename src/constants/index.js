@@ -1,4 +1,16 @@
-import { people02, people01, facebook, instagram, linkedin, twitter, lowercost, send, shield, email, phone} from "../images";
+import {
+  people02,
+  people01,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  lowercost,
+  efficiency,
+  shield,
+  email,
+  phone,
+} from "../images";
 
 export const navLinks = [
   {
@@ -36,7 +48,7 @@ export const features = [
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: efficiency,
     title: "Higher Efficiency",
     content:
       "Stronger and more relevant relationships with the media based off of data-driven strategies.",
@@ -48,39 +60,31 @@ export const contact = [
     id: "email",
     icon: email,
     title: "Email",
-    content:
-    "shannon@mediacyborg.com"
+    content: "shannon@mediacyborg.com",
   },
   {
     id: "number",
     icon: phone,
     title: "Phone",
-    content:
-    "+1 (727)-383-7615"
-
+    content: "+1 (727)-383-7615",
   },
-
 ];
-
 
 export const missionstatement = [
   {
     id: "mission-statement-1",
-    content:
-      " ",
+    content: " ",
     name: "Shannon Agostini",
     title: "CEO",
     img: people01,
   },
   {
     id: "mission-statement-2",
-    content:
-      " ",
+    content: " ",
     name: "Raquel Fierros",
     title: "Technical Co-founder",
     img: people02,
   },
-
 ];
 
 export const socialMedia = [
@@ -105,4 +109,3 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
-

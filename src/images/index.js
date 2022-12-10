@@ -2,9 +2,8 @@ import logo from "./logo.svg";
 import mclogo from "./mclogo.png";
 import quotes from "./quotes.svg";
 import mediarobot from "./mediarobot.png";
-import send from "./Send.svg";
+import efficiency from "./Efficiency.svg";
 import shield from "./Shield.svg";
-import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import lowercost from "./lowercost.svg";
@@ -23,10 +22,9 @@ export {
   mclogo,
   quotes,
   mediarobot,
-  send,
+  efficiency,
   shield,
   lowercost,
-  star,
   menu,
   close,
   arrowUp,

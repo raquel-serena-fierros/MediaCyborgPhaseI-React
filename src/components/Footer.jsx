@@ -2,9 +2,6 @@ import styles from "../style";
 import { logo } from "../images";
 import { socialMedia } from "../constants";
 
-
-
-
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
@@ -36,8 +33,6 @@ const Footer = () => (
         ))}
       </div>
     </div>
-
-    
   </section>
 );
 

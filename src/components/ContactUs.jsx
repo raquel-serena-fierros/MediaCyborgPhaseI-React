@@ -24,15 +24,18 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const ContactUs = () => (
-  <section id="contact"
+  <section
+    id="contact"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Get in touch!</h2>
 
-      {contact.map((info, index) => (
-        <FeatureCard key={info.id} {...info} index={index} />
-      ))}
+      <div className="flex flex-wrap sm:justify-start justify-center feedback-container relative z-[1]">
+        {contact.map((info, index) => (
+          <FeatureCard key={info.id} {...info} index={index} />
+        ))}
+      </div>
     </div>
   </section>
 );
