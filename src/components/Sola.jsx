@@ -28,7 +28,7 @@ const Sola = () => (
   <section id="sola" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        To get more Media Coverage, metrics
+        To get more Media coverage, metrics
         <br className="sm:block hidden" /> now matter more than connections.
         MediaCyborg recognizes that.
       </h2>

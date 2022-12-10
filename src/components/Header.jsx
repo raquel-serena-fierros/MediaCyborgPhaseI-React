@@ -16,7 +16,7 @@ const Header = () =>  (
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          of Public Relations.
+          of Public Relations
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           The media has become digital. As time progresses, it continues to rely more on technology and analytics. It's time for public relations to fully catch up.
