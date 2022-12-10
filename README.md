@@ -1,5 +1,5 @@
 # MediaCyborg-PhaseI
-Front End Development using React.js and Vite  for Media Cyborg Startup
+Front End Development using React + Tailwind + Vite  for MediaCyborg Startup.
 
 
 # Step 1 — Creating a Vite Project
