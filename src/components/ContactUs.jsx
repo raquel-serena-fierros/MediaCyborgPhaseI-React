@@ -1,11 +1,11 @@
-import styles from "../style";
+import styles, {layout} from "../style";
 import { contact } from "../constants";
 
 const ContactCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
-      index !== contact.length - 1 ? "mb-1" : "mb-0"
-    } feature-card`}
+      index !== contact.length - 1 ? "mb-6" : "mb-0"
+    }`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
@@ -24,7 +24,25 @@ const ContactCard = ({ icon, title, content, index }) => (
 );
 
 const ContactUs = () => (
-  <section
+  <section id="contact"
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+  >
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>Get in touch!</h2>
+
+      <div className={`${layout.sectionImg} `}>
+      {contact.map((info, index) => (
+        <ContactCard key={info.id} {...info} index={index} />
+      ))} </div>
+    </div>
+  </section>
+);
+
+export default ContactUs;
+
+
+/*
+<section
     id="contact"
     className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
   >
@@ -38,6 +56,17 @@ const ContactUs = () => (
       </div>
     </div>
   </section>
-);
 
-export default ContactUs;
+
+   <section id="contact"
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+  >
+    <div className="flex-1 flex flex-col">
+      <h2 className={styles.heading2}>Get in touch!</h2>
+
+      {contact.map((info, index) => (
+        <ContactCard key={info.id} {...info} index={index} />
+      ))}
+    </div>
+  </section>
+  */
