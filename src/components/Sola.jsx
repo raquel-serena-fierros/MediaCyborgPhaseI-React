@@ -28,15 +28,18 @@ const Sola = () => (
   <section id="sola" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        To get more Media coverage, metrics
-        <br className="sm:block hidden" /> now matter more than connections.
-        MediaCyborg recognizes that.
+         Sola generates, maintains and manages 
+        <br className="sm:block hidden" /> fame for only $10 a month. 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        MediaCyborg's AI publicists, Sola, covers media to fit today's
-        data-driven, high-efficiency era. Unlike traditional publicists, Sola
-        works 24/7 to ensure you are always getting the best possible media
-        coverage at all times.
+      1. Download the app and sign up in less than five minutes
+      2. Sola will work to increase your engagement
+      3. Once a certain level of engagement is reached, Sola can begin booking media coverage
+         for you
+      4. Once you have been booked, Sola will give you advice on how to carry yourself in front
+         of the media
+      5. You can keep track of your engagement and media coverage via weekly reports
+         provided by Sola
       </p>
     </div>
 
