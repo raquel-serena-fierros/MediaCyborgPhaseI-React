@@ -40,7 +40,7 @@ const Sola = () => (
       </p>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px]">
         3.
       </h4>
          Once a certain level of engagement is reached, Sola can begin booking media coverage
