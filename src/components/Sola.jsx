@@ -33,11 +33,15 @@ const Sola = () => (
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       1. Download the app and sign up in less than five minutes
+      <br className="sm:block hidden" />
       2. Sola will work to increase your engagement
+      <br className="sm:block hidden" />
       3. Once a certain level of engagement is reached, Sola can begin booking media coverage
          for you
+      <br className="sm:block hidden" />
       4. Once you have been booked, Sola will give you advice on how to carry yourself in front
          of the media
+      <br className="sm:block hidden" />
       5. You can keep track of your engagement and media coverage via weekly reports
          provided by Sola
       </p>
