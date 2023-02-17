@@ -13,7 +13,7 @@ const Header = () => (
         </h1>
       </div>
 
-      <p className={`${styles.paragraph} max-w-[470px] mt-8`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-12`}>
        The difference between a content creator and a celebrity 
        is the amount of earned media obtained. MediaCyborg's AI publicist,
         Sola, will help get you on the path of securing mass media attention.
