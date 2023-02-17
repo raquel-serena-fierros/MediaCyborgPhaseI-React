@@ -37,21 +37,21 @@ export const features = [
     icon: lowercost,
     title: "Lower Cost",
     content:
-      "MediaCyborg's AI Sola offers more media coverage at a significantly lower monthly cost compared to a traditional publicist.",
+      "Sola is only $10 a month. That's less than two lattes.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Easy to Use",
     content:
-      "Sign up in 5 minutes, and instantly connect to media outlets. Quick and easy media coverage in a click of a button. ",
+      "Sign up in five minutes. No long onboarding or frequent meetings necessary.",
   },
   {
     id: "feature-3",
     icon: efficiency,
     title: "Higher Efficiency",
     content:
-      "Stronger and more relevant relationships with the media based off of data-driven strategies.",
+      "Sola works 24/7 to ensure you are getting the highest amount of media coverage and/or the most engagement.",
   },
 ];
 

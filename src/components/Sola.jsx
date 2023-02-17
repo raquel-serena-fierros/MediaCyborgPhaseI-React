@@ -28,8 +28,8 @@ const Sola = () => (
   <section id="sola" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-         Sola generates, maintains and manages 
-        <br className="sm:block hidden" /> fame for only $10 a month. 
+         Sola generates, maintains and manages fame
+        <br className="sm:block hidden" /> for only $10 a month.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       1. Download the app and sign up in less than five minutes
