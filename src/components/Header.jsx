@@ -12,8 +12,8 @@ const Header = () => (
           <span className="text-gradient">Stardom</span>{" "}
         </h1>
       </div>
-      
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+
+      <p className={`${styles.paragraph} max-w-[470px] mt-8`}>
        The difference between a content creator and a celebrity 
        is the amount of earned media obtained. MediaCyborg's AI publicist,
         Sola, will help get you on the path of securing mass media attention.
