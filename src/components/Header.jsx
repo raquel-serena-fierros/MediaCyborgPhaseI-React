@@ -7,11 +7,16 @@ const Header = () => (
       className={"flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6"}
     >
       <div className="flex flex-row justify-between items-center w-full">
-          <span className="text-gradient">Optimized Stardom</span>{" "}
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+           <br className="sm:block hidden" />{" "}
+          <span className="text-gradient">Optimized</span>{" "}
+        </h1>
       </div>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      The difference between a content creator and a celebrity is the amount of earned media obtained. MediaCyborg's AI publicist, Sola, will help get you on the path of securing mass media attention.
+        The media has become digital. As time progresses, it continues to rely
+        more on technology and analytics. It's time for public relations to
+        fully catch up.
       </p>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
