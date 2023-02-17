@@ -33,38 +33,30 @@ const Sola = () => (
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       1. Download the app and sign up in less than five minutes.
-     
-      
-      
-      
       </p>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       2. Sola will work to increase your engagement.
-
       </p>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      3. Once a certain level of engagement is reached, Sola can begin booking media coverage
-         for you
-
+      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
+        3.
+      </h4>
+         Once a certain level of engagement is reached, Sola can begin booking media coverage
+         for you.
       </p>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       4. Once you have been booked, Sola will give you advice on how to carry yourself in front
          of the media.
-
       </p>
 
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       5. You can keep track of your engagement and media coverage via weekly reports
          provided by Sola.
-
       </p>
 
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-
-      </p>
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
